@@ -109,6 +109,7 @@ blockquote {
     align-items: center;
     justify-content: space-around;
     background-color: #1f2937;
+    flex-wrap: wrap;
 }
 
 .sub-text {
