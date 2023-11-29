@@ -109,7 +109,6 @@ blockquote {
     align-items: center;
     justify-content: space-around;
     background-color: #1f2937;
-    flex-wrap: wrap;
 }
 
 .sub-text {
@@ -220,3 +219,11 @@ blockquote {
 footer {
     margin-top: 20px;
 }
+
+@media (max-width: 650px) {
+    .section1 {
+        flex-wrap: wrap;
+    }
+}
+
+
